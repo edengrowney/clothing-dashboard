@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Bigl', 'Korgi', 'Rotveler', 'Siba-ny']
+
+roboflow:
+  workspace: -ekljb
+  project: dogs-zsyaq
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/-ekljb/dogs-zsyaq/dataset/1
